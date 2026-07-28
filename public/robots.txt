@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Host: https://bamidele2026.ikejaclub.org
+
+Sitemap: https://bamidele2026.ikejaclub.org/sitemap.xml

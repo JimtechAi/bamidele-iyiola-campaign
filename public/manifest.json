@@ -1,0 +1,17 @@
+{
+  "short_name": "Bamidele2026",
+  "name": "Bamidele Iyiola S. (ASSORTED) - Premises Secretary Campaign",
+  "description": "Elect Bamidele Iyiola S. (ASSORTED) as Premises Secretary, Ikeja Club 2026. Responsible Leadership, Environmental Excellence & Member Service.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#7A1730",
+  "display": "standalone",
+  "orientation": "portrait"
+}
