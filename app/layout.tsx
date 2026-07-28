@@ -3,7 +3,13 @@ import { Cinzel, Inter, Poppins } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 
-const siteUrl = 'https://bamidele2026.ikejaclub.org';
+const defaultSiteUrl = 'https://bamidele-iyiola-campaign.vercel.app';
+const rawSiteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  process.env.VERCEL_PROJECT_PRODUCTION_URL ||
+  process.env.VERCEL_URL ||
+  defaultSiteUrl;
+const siteUrl = rawSiteUrl.startsWith('http') ? rawSiteUrl : `https://${rawSiteUrl}`;
 const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 
