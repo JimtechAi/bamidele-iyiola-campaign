@@ -85,9 +85,10 @@ export const metadata: Metadata = {
     locale: 'en_NG',
     images: [
       {
-        url: '/images/social/social-preview.webp',
+        url: '/images/social/social-preview-og.jpg',
         width: 1200,
         height: 630,
+        type: 'image/jpeg',
         alt: 'Bamidele Iyiola S. (ASSORTED) campaign preview',
       },
     ],
@@ -99,7 +100,7 @@ export const metadata: Metadata = {
     title: 'Bamidele Iyiola S. (ASSORTED) | Candidate for Premises Secretary | Ikeja Club',
     description:
       'Elect Bamidele Iyiola S. (ASSORTED) as Premises Secretary. Discover his vision for a cleaner, greener and better Ikeja Club through responsible leadership, transparency and service.',
-    images: ['/images/social/social-preview.webp'],
+    images: ['/images/social/social-preview-og.jpg'],
   },
   verification: {
     google: googleSiteVerification,
