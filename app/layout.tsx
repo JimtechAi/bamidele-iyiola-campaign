@@ -3,13 +3,7 @@ import { Cinzel, Inter, Poppins } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 
-const defaultSiteUrl = 'https://bamidele-iyiola-campaign.vercel.app';
-const rawSiteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  process.env.VERCEL_PROJECT_PRODUCTION_URL ||
-  process.env.VERCEL_URL ||
-  defaultSiteUrl;
-const siteUrl = rawSiteUrl.startsWith('http') ? rawSiteUrl : `https://${rawSiteUrl}`;
+const siteUrl = 'https://bamidele-iyiola-campaign.vercel.app';
 const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 
@@ -85,11 +79,10 @@ export const metadata: Metadata = {
     locale: 'en_NG',
     images: [
       {
-        url: '/images/social/social-preview-og.jpg',
+        url: '/images/social/og-image.webp',
         width: 1200,
         height: 630,
-        type: 'image/jpeg',
-        alt: 'Bamidele Iyiola S. (ASSORTED) campaign preview',
+        alt: 'Campaign Preview',
       },
     ],
   },
@@ -100,7 +93,7 @@ export const metadata: Metadata = {
     title: 'Bamidele Iyiola S. (ASSORTED) | Candidate for Premises Secretary | Ikeja Club',
     description:
       'Elect Bamidele Iyiola S. (ASSORTED) as Premises Secretary. Discover his vision for a cleaner, greener and better Ikeja Club through responsible leadership, transparency and service.',
-    images: ['/images/social/social-preview-og.jpg'],
+    images: ['/images/social/og-image.webp'],
   },
   verification: {
     google: googleSiteVerification,

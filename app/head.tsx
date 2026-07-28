@@ -4,8 +4,8 @@ export default function Head() {
       <link
         rel="preload"
         as="image"
-        href="/images/social/social-preview-og.jpg"
-        type="image/jpeg"
+        href="/images/social/og-image.webp"
+        type="image/webp"
         fetchPriority="high"
       />
     </>
